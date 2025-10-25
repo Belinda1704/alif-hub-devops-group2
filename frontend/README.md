@@ -13,7 +13,7 @@ Many Somali high school students lack access to mentorship, career guidance, and
 
 | Name               | Role                          | GitHub Username   |
 |--------------------|-------------------------------|-------------------|
-| Belinda Larose     | Frontend + DevOps             | @Belinda1704      |
+| Belinda Larose     | Team leadr + Frontend developer            | @Belinda1704      |
 | Amelia Umutoni     | Frontend Developer            | @Aumutoni         |
 | Khalid Abdillahi   | Backend Developer             | @Khaalid245       |
 
