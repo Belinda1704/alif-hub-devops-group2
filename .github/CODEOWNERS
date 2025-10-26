@@ -1,0 +1,57 @@
+# CODEOWNERS file for alif-hub-devops-group2
+# This file defines who owns which parts of the codebase
+# People listed here will automatically be requested as reviewers when PRs touch their areas
+
+# Global owners - everyone reviews these files
+* @Belinda1704 @Aumutoni @Khaalid245
+
+# Frontend code ownership
+/frontend/ @Belinda1704 @Aumutoni
+
+# Backend code ownership  
+/backend/ @Belinda1704 @Khaalid245
+
+# DevOps and infrastructure files (everyone reviews DevOps)
+.github/ @Belinda1704 @Aumutoni @Khaalid245
+Dockerfile @Belinda1704 @Aumutoni @Khaalid245
+docker-compose.yml @Belinda1704 @Aumutoni @Khaalid245
+terraform/ @Belinda1704 @Aumutoni @Khaalid245
+.github/workflows/ @Belinda1704 @Aumutoni @Khaalid245
+
+# Documentation (everyone reviews docs)
+README.md @Belinda1704 @Aumutoni @Khaalid245
+*.md @Belinda1704 @Aumutoni @Khaalid245
+
+# Configuration files (everyone reviews config changes)
+.gitignore @Belinda1704 @Aumutoni @Khaalid245
+*.yml @Belinda1704 @Aumutoni @Khaalid245
+*.yaml @Belinda1704 @Aumutoni @Khaalid245
+*.json @Belinda1704 @Aumutoni @Khaalid245
+
+# Security files (everyone reviews security changes)
+.env.example @Belinda1704 @Aumutoni @Khaalid245
+*secrets* @Belinda1704 @Aumutoni @Khaalid245
+*credentials* @Belinda1704 @Aumutoni @Khaalid245
+
+# Database files (Khaalid only)
+/database/ @Khaalid245
+*.sql @Khaalid245
+
+# Python files (backend team)
+*.py @Belinda1704 @Khaalid245
+
+# JavaScript/TypeScript files (frontend team)
+*.js @Belinda1704 @Aumutoni
+*.jsx @Belinda1704 @Aumutoni
+
+# React/Vue/Angular files (frontend team)
+*.vue @Belinda1704 @Aumutoni
+*.svelte @Belinda1704 @Aumutoni
+
+# CSS and styling (frontend team)
+*.css @Belinda1704 @Aumutoni
+*.scss @Belinda1704 @Aumutoni
+*.sass @Belinda1704 @Aumutoni
+
+# Everything else defaults to team review
+* @Belinda1704 @Aumutoni @Khaalid245
