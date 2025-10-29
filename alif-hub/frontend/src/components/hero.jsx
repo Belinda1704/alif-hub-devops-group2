@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     // Slightly more compact section padding for a "smaller" feel
-    <section className="py-20 md:py-10 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-blue-50 to-white ">
+    <section className="py-20 md:py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-white ">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto gap-10">
         {" "}
         {/* max-w-6xl for a slightly more contained layout */}
@@ -14,7 +14,7 @@ const Hero = () => {
           {/* Main Heading with a fresh, impactful gradient */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight drop-shadow-sm">
             Empowering Somali Students with{" "}
-            <span className="inline-block text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-indigo-800 pb-1">
+            <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-800 pb-1">
               Alif Mentorship Hub
             </span>
           </h1>

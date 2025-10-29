@@ -4,18 +4,18 @@ const About = () => {
   const teamMembers = [
     {
       name: "Belinda Larose",
-      role: "Team Leader & Frontend Developer",
+      role: "Team Leader & Devops Engineer",
       description: "Leading the vision and coordination of the Alif Mentorship Hub project"
+    },
+    {
+      name: "Khaalid Abdillahi",
+      role: "Backend Developer",
+      description: "Building robust APIs and managing data infrastructure"
     },
     {
       name: "Amelie Umutoni",
       role: "Frontend Developer",
       description: "Creating beautiful and intuitive user interfaces"
-    },
-    {
-      name: "Khalid Abdillahi",
-      role: "Backend Developer",
-      description: "Building robust APIs and managing data infrastructure"
     }
   ];
 
@@ -43,7 +43,7 @@ const About = () => {
   ];
 
   return (
-    <div className="pt-20 bg-linear-to-br from-blue-50 to-white min-h-screen">
+    <div className="pt-20 bg-gradient-to-br from-blue-50 to-white min-h-screen">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -135,7 +135,7 @@ const About = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="bg-linear-to-br from-blue-50 to-indigo-50 p-6 rounded-xl shadow-lg text-center"
+                className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl shadow-lg text-center"
               >
                 <div className="w-24 h-24 bg-blue-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-4xl text-white font-bold">
