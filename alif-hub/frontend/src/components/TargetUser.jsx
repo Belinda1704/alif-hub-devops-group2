@@ -19,7 +19,7 @@ const TargetUsers = () => {
   ];
 
   return (
-    <section className="py-20 bg-linear-to-br from-gray-50 to-blue-50">
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -48,7 +48,7 @@ const TargetUsers = () => {
               className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow duration-300"
             >
               <div className="text-center">
-                <div className={`w-20 h-20 mx-auto mb-6 rounded-full bg-linear-to-r ${user.color} flex items-center justify-center text-3xl shadow-lg`}>
+                <div className={`w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-r ${user.color} flex items-center justify-center text-3xl shadow-lg`}>
                   {user.icon}
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{user.title}</h3>
@@ -67,7 +67,7 @@ const TargetUsers = () => {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <div className="bg-linear-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white">
+          <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to Start Your Journey?
             </h3>

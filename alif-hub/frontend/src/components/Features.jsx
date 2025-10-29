@@ -2,7 +2,7 @@ import { featuresData } from "../context/FeaturesData";
 
 export default function Features() {
   return (
-    <section className="relative py-20 overflow-hidden bg-linear-to-br from-blue-50 to-white">
+    <section className="relative py-20 overflow-hidden bg-gradient-to-br from-blue-50 to-white">
       {/* Optional: Subtle animated background or particles for more depth */}
 
       {/* Content container */}
@@ -25,7 +25,7 @@ export default function Features() {
               style={{ minHeight: "320px" }}
             >
               {/* Icon with a soft gradient or neutral color */}
-              <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-full bg-linear-to-tr from-blue-100 to-indigo-100 shadow-lg hover:scale-110 transition-transform duration-200">
+              <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-full bg-gradient-to-tr from-blue-100 to-indigo-100 shadow-lg hover:scale-110 transition-transform duration-200">
                 {/* Program-specific icons */}
                 <span className="text-2xl">
                   {index === 0 && "🎯"}

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function AboutUs() {
   return (
-    <section className="relative py-16 md:py-24 bg-linear-to-b from-[#F8FAFC] to-[#E2E8F0] overflow-hidden">
+    <section className="relative py-16 md:py-24 bg-gradient-to-b from-[#F8FAFC] to-[#E2E8F0] overflow-hidden">
       {/* Optional abstract wave/vector background for depth */}
       <div className="absolute inset-0 pointer-events-none z-0">
         <svg
@@ -51,7 +51,7 @@ export default function AboutUs() {
             {/* Call-to-action Button */}
             <a
               href="/signup"
-              className="inline-block mt-6 bg-linear-to-r from-[#2563EB] to-[#1D4ED8] text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:scale-105 transition-transform"
+              className="inline-block mt-6 bg-gradient-to-r from-[#2563EB] to-[#1D4ED8] text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:scale-105 transition-transform"
             >
               Join Our Community
             </a>

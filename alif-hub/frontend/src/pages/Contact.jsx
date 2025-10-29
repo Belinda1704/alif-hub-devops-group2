@@ -49,7 +49,7 @@ const Contact = () => {
   ];
 
   return (
-    <div className="pt-20 bg-linear-to-br from-blue-50 to-white min-h-screen">
+    <div className="pt-20 bg-gradient-to-br from-blue-50 to-white min-h-screen">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -102,7 +102,7 @@ const Contact = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-linear-to-br from-blue-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg"
+              className="bg-gradient-to-br from-blue-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg"
             >
               <h2 className="text-3xl font-bold mb-4">Why Contact Us?</h2>
               <ul className="space-y-4">
