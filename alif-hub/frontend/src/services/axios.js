@@ -16,4 +16,14 @@ api.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
+// Add response interceptor to handle errors
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    // Log errors for debugging
+    console.error("API Error:", error.response?.status, error.response?.data || error.message);
+    return Promise.reject(error);
+  }
+);
+
 export default api;
